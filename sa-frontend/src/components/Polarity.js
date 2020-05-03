@@ -16,7 +16,7 @@ class Polarity extends Component {
             padding: '15px'
         };
 
-        return <div style={textColor}>"{this.props.sentence}" has polarity of {this.props.polarity} </div>
+        return <div style={textColor}>"{this.props.sentence}" your productivity will be {this.props.polarity} </div>
     }
 }
 
